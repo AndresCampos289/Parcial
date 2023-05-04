@@ -14,8 +14,8 @@ import javax.swing.table.DefaultTableModel;
  */
 public class ModeloPersonas {
     
-     ArrayList MiLista = new ArrayList();
-     DefaultTableModel ModeloTabla;
+    ArrayList MiLista = new ArrayList();
+    DefaultTableModel ModeloTabla;
     public void IngresarDatos(String ape ,String nom, String tel)
     {
         Personas nuevoCliente = new Personas(ape, nom, tel);
@@ -36,6 +36,5 @@ public class ModeloPersonas {
         }
         return ModeloTabla;
     }
-
 }
     
